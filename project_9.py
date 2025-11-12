@@ -1,6 +1,6 @@
 import os
-from library import functions
-from library.classes_9 import Budget
+import functions
+from classes_9 import Budget
 
 os.system('cls' if os.name == 'nt' else 'clear')
 _name = input('Enter your name: ')
@@ -31,5 +31,6 @@ bal = functions.calc_balance(income, sum(total_expenses))
 functions.financial_status(bal)
 
 grocery.get_expenses_list()
+
 
 
